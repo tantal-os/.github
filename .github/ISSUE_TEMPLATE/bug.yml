@@ -1,0 +1,45 @@
+name: Bug report
+description: Something works incorrectly
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Security vulnerabilities are reported privately: see the security
+        policy of this repository. Don't describe them here.
+  - type: input
+    id: build
+    attributes:
+      label: Device and build
+      description: Model and build number from Settings → About phone, or the app version.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: dropdown
+    id: upstream
+    attributes:
+      label: Does it reproduce on stock GrapheneOS?
+      options:
+        - Not tested
+        - "Yes"
+        - "No"
+        - Not applicable
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: A logcat excerpt or a stack trace. Remove personal data first.
+      render: text

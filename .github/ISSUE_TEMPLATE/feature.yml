@@ -1,0 +1,25 @@
+name: Feature request
+description: Propose a feature or a change
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: security
+    attributes:
+      label: Security impact
+      description: >
+        New permissions, platform changes, network access, anything that
+        differs from GrapheneOS. Write "none" if there is none.
+    validations:
+      required: true
