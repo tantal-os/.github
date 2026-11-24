@@ -20,16 +20,6 @@ It is not affiliated with the GrapheneOS project.
 
 Tantal is in active development and cannot be installed yet.
 
-## Repositories
-
-- [tantal-os.github.io](https://github.com/tantal-os/tantal-os.github.io):
-  the site, the devlog and the security decision log.
-- [calculator](https://github.com/tantal-os/calculator),
-  [clock](https://github.com/tantal-os/clock),
-  [calendar](https://github.com/tantal-os/calendar),
-  [notepad](https://github.com/tantal-os/notepad): our apps, one
-  repository each.
-
 ## Taking part
 
 - [Contributing](../CONTRIBUTING.md): rules for issues and pull requests.
